@@ -45,5 +45,17 @@ public class MainTest {
         } else if(transactionType==TransactionType.OTHER) {
             System.out.println("other transaction");
         }
+
+        // Not: Enum yaoiya has methodlar:
+        System.out.println("Enum Name: " + transactionType.name()); // Enum ismini ekrana yazdim
+        System.out.println("Enum Coder Value :" +transactionType.getTransactionCode()); // numeric deger
+        System.out.println("Enum Ordinal" + transactionType.ordinal()); //  get Order index
+
+
     }
+
+
+
+
+
 }

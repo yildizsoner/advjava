@@ -9,13 +9,13 @@ public enum TransactionType {
     OTHER(100);
 
 
-    private final int transactionCode;
+    private final int transactionCode;   // set edilmesi lazim
 
     private TransactionType (int code) {
         this.transactionCode=code;
     }
 
-    public int getTransactionCode() {
+    public int getTransactionCode() {   // bu seklide set ediliyor....
         return transactionCode;
     }
 }

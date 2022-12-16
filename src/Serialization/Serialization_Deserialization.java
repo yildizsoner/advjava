@@ -98,7 +98,7 @@ class User implements Serializable {
     }
 
     @Override
-    public String toString() {   // objectin fieldlerini bu sekilde goruyoruz.
+    public String toString() {   // objectin fieldlerini bu sekilde goruyoruz. objectleri sout ile bu sekilde gelsin diye..
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
