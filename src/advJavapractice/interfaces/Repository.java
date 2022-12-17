@@ -1,4 +1,4 @@
-package generics.interfaces;
+package advJavapractice.interfaces;
 //CRUD methodlari olan generic bir interface tanimla
 public interface Repository<T> {
 

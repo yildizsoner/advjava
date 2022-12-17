@@ -1,4 +1,4 @@
-package generics.interfaces;
+package advJavapractice.interfaces;
 
 public class TeacherRepo implements Repository<Teacher>{
     @Override

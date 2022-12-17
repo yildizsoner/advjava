@@ -1,7 +1,4 @@
-package generics.interfaces;
-
-import java.util.ArrayList;
-import java.util.List;
+package advJavapractice.interfaces;
 
 /*Task: Okul yönetimi için öğrenci ve öğretmen kayıtlarını
    -oluşturan

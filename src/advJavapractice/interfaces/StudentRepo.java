@@ -1,4 +1,4 @@
-package generics.interfaces;
+package advJavapractice.interfaces;
 
 public class StudentRepo implements Repository <Student> {
 
