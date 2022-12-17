@@ -40,7 +40,7 @@ public class ThreadCreationWays {
             System.out.println("lambda ile yazildi");
         });
         thread4.start();
-        System.out.println("Mainmethod bitti");
+        System.out.println("Mainmethod bitti"); // bu yazi ciktinin gozukecegi ile ilgili kesin birsey diyemeyiz.
 
         Thread thread5 = new Thread(()->{
             System.out.println("thread5 calisti");
@@ -59,7 +59,7 @@ class MyThread extends Thread {
     }
 }
 
-//2/ yol: runnable Interfacei implement ederek:
+    //2. yol: runnable Interface i implement ederek:
 class MyRunnable implements Runnable {
     @Override
     public void run() {
