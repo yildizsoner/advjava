@@ -1,4 +1,4 @@
-package generics.classes;
+package advJavapractice.classes;
 
 /*
 ==Generic Types==

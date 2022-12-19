@@ -1,6 +1,5 @@
 package generics.method;
 
-
 // Generic methodlar hangi durumda bize kolaylik sagliyor.
 public class GenericMethodDemo {
     public static void main(String[] args) {
@@ -20,12 +19,15 @@ public class GenericMethodDemo {
 //
 //    }
 
+
     //generic method :
     public <T> void print (T[] array) {
         for(T t: array) {
-            System.out.println(t);
+            System.out.print(t+" ");
         }
+        System.out.println("");
     }
+
 
 
 }
