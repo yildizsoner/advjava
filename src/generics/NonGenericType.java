@@ -25,7 +25,7 @@ public class NonGenericType {
 
         String str2 = (String)obj2.getO();  // !!! RunTimeException --> ClassCastException
 
-        // String valueOf(obj2.getO()); method ile donusum yapariz.
+        // String valueOf(obj2.getO()); method ile donusum yapariz.//.....jjjgg
         // Integer parseInt(String);
         System.out.println(str2);
 
