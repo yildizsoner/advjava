@@ -44,6 +44,7 @@ public static void listMemberLibrary() {
     System.out.printf("%-10s  ||  %4s  ||  %20s  %n",std1.getS(),std1.getU(),std1.getV());
     System.out.printf("%-10s  ||  %4s  ||  %20s  %n",std2.getS(),std2.getU(),std2.getV());
     System.out.printf("%-10s  ||  %4s  ||  %20s  %n",std3.getS(),std3.getU(),std3.getV());
+    ///student list
 
 }
 
